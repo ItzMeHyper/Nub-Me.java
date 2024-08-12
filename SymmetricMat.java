@@ -4,8 +4,7 @@ public class SymmetricMat {
     public static void main(String[] args) {
         int i, j, flag = 0;
         Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter the number of rows & columns: ");
+        System.out.print("Enter the size of square matrix: ");
         int n = sc.nextInt();
 
         int Mat[][] = new int[n][n];
