@@ -56,7 +56,7 @@ public class areaofdiffshapesv2 {
                 System.out.println("Invalid choice. Please enter 1, 2, or 3.");
                 break;
         }
-        sc.close();
+    sc.close();
     }
 }
 
