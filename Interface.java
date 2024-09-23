@@ -34,7 +34,7 @@ public class Interface {
         String str = sc.nextLine();
         System.out.println("Enter Test Score");
         int score = sc.nextInt();
-        System.out.println("----ABOUT MY PLACEMENT----");
+        System.out.println("====ABOUT MY PLACEMENT====");
         trainee.learn(str);
         trainee.screening(score);
         trainee.work();
