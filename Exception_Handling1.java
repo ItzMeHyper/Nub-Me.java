@@ -14,19 +14,19 @@ class ArithmeticHandler {
 }
 
 class ArrayIndexHandler {
-     void arrayIndex(int index) {
+    void arrayIndex(int index) {
         try {
-            int[] array = new int[5];
-            System.out.println("Value at index " + index + ": " + array[index]);
+            int array[] = { 2, 5, 8, 9, 21 };
+            System.out.println("The number in " + index + " is " + array[index]);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Error: Caught an exception: " + e.getMessage());
+            System.out.println("Caught an exception " + e.getMessage());
         } finally {
             System.out.println("Array access operation completed.\n");
         }
     }
 }
 
-public class Exception_Handling {
+public class Exception_Handling1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
