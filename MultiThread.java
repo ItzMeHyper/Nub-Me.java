@@ -29,7 +29,7 @@ class RandomNumGenerator extends Thread {
         int n = 0; 
         Random rand = new Random(); 
         try { 
-            for (int i = 0; i < 10; i++) { 
+            for (int i = 0; i < 4; i++) { 
                 n = rand.nextInt(20); 
                 System.out.println("Generated Number is " + n);
 
