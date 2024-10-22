@@ -15,7 +15,8 @@ class ABC extends JFrame implements ActionListener {
         t2 = new JTextField(20);         
         btn = new JButton("Add");       
         l3 = new JLabel("Result:");  
-        t3 = new JTextField(20);         
+        t3 = new JTextField(20);       
+        
         t3.setEditable(false);
         
         add(l1);         
