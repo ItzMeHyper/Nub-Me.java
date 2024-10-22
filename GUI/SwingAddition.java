@@ -40,7 +40,9 @@ class ABC extends JFrame implements ActionListener {
             l3.setText("Invalid input. Please enter numbers.");
         }
     }
+}
 
+public class SwingAddition {
     public static void main(String[] args) {
         new ABC();
     }
