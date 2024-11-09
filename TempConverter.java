@@ -9,7 +9,7 @@ class convert extends JFrame implements ActionListener {
 
     public convert() {
         setLayout(new FlowLayout());   
-        setTitle("Temperature Converter");
+        setTitle("Hyper: Temperature Converter");
 
         l1 = new JLabel("Enter temperature in Celsius:");         
         t1 = new JTextField(20);                      
