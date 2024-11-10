@@ -1,3 +1,6 @@
+/* 
+Write a Java program that creates multiple child threads to print odd and even numbers from 50-100.
+*/
 class EvenNumberPrinter extends Thread {
     public void run() {
         for (int i = 50; i <= 100; i++) {
