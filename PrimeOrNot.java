@@ -13,7 +13,7 @@ public class PrimeOrNot {
         if (n == 1 || n == 0) {
             System.out.println("is neither prime nor a composite number");
         } else {
-            for (i = 2; i <= n; i++) {
+            for (i = 2; i*i <= n; i++) {
                 if (n % i == 0) {
                     isprime = 0;
                     break;
