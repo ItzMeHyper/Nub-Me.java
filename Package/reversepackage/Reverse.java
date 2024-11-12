@@ -10,4 +10,12 @@ public class Reverse {
         }
         System.out.println("Reversed number: " + rev);
     }
+
+    public void strrev(String str){
+        String rev = "";
+        for (int i = str.length(); i > 0; --i) {
+            rev = rev + (str.charAt(i - 1));
+        }
+        System.out.println("Reverse String  is : " +rev);
+    }
 }
